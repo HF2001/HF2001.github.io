@@ -11,16 +11,37 @@
 
     body {
 
-        text-align: center
 
-   
-    }			
+
+        text-align: center}
 	
 	body {		
           background-color: blue;
 
     }
-    
+ ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #333;
+}
+
+li {
+    float: left;
+}
+
+li a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+
+li a:hover {
+    background-color: #111;
+}
     
 </style>
 </head>
@@ -32,10 +53,12 @@
 		
 	</head>
 	<body>
-		<a href="index.html">Home</a>
-		<a href="portfolio.html">Portfolio</a>
-		<a href="Contact.html">Contact</a>
-		<h1>hunter.franklin@myds.us</h1>
+<ul>
+  <li><a class="active" href="index.html">Home</a></li>
+  <li><a href="#news">News</a></li>
+  <li><a href="#contact">Contact</a></li>
+  <li><a href="#about">About</a></li>
+</ul>
 		
 		
 	</body>
