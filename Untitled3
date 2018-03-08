@@ -1,4 +1,3 @@
-<!doctype html>
 <html lang="en">
 	<head>
 		<meta charset="utf-8">
@@ -68,8 +67,7 @@ li a:hover {
   <li><a class="active" href="index.html">Home</a></li>
   <li><a href="Android Project.html">Android Project</a></li>
   <li><a href="Contact.html">Contact</a></li>
-<li><a href="python.html">Python Project</a></li>
-<li><a href="Python_Quiz_app.html">Python Quiz App</a></li>
+ <li><a href="python.html">Python Project</a></li>
 </ul>
 <br><br><br><br><br><br><br><br><br><br><br><br><br><br><br>
 
